@@ -2,7 +2,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background: linear-gradient(100deg, gold, #000, #fff, #000);
+    background: linear-gradient(100deg, gray, #000, #fff, #000);
     background-size: 400% 400%;
 }
 #tab {
