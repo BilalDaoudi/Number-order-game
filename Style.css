@@ -2,7 +2,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background: linear-gradient(100deg, gray, #000, #fff, #000);
+    background: linear-gradient(100deg, gray, #fff, gray,gray );
     background-size: 400% 400%;
 }
 #tab {
@@ -18,15 +18,26 @@ td {
     text-align: center;
 }
 #rejouer{
-    background-color: rgb(234, 234, 234);
     font-weight: 700;
     font-size: 20px;
     text-align: center;
     width: 300px;
     height: 40px;
-    color: rgb(145, 255, 0);
+    color: #fff;
     border-radius: 20px;
-    background: linear-gradient(10deg, #ffffff, #000, #000, #fff);
-
-
+    background: linear-gradient(10deg, #fff, #000, #000, #fff);
 }
+#rejouer:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(10deg, #000, #fff, #fff, #000);
+}
+
+h1 {
+    font-size: 36px; /* Taille de la police */
+    color: #293849; /* Couleur du texte (bleu vif) */
+    margin-bottom: 20px; /* Marge en bas pour l'espacement */
+    text-align: center; /* Alignement centré */
+    text-transform: uppercase; /* Texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+  }
+  
